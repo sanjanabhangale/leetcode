@@ -23,7 +23,20 @@ nums2.length == n
 1 <= m + n <= 2000
 -106 <= nums1[i], nums2[i] <= 106
 
-
+<br>
+<br>
 1st approach basically fails in the test case:
 where num1 = [1,2] ans num2 = [3,4]
 Basically at line no 18 'i' goes out of index.
+
+<br>
+<br>
+efficiency of submitted code: 
+<br>
+<strong>Runtime Details</strong>
+101ms
+Beats 77.33%of users with Python3
+<br>
+<strong>Memory Details</strong>
+16.49mb
+Beats 95.42%of users with Python3
